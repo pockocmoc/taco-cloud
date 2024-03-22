@@ -1,0 +1,22 @@
+body {
+	text-align: center;
+}
+
+img {
+	width: 15%;
+	height: 15%;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr; /* Разделение на две равные колонки */
+	grid-gap: 20px; /* Расстояние между элементами */
+}
+
+.ingredient-group {
+	margin-bottom: 20px;
+}
+
+.taco-form {
+  margin-bottom: 60px; /* Задаем отступ снизу в 20px */
+}
